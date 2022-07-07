@@ -15,11 +15,11 @@ const assignment = {};
 
 function sumOfNumbers(arrayOfNumbers) {
   let numbers = 0;
-for (let i  of arrayOfNumbers)         {
-        numbers += i;
-    }
-return numbers;
+  for (let i of arrayOfNumbers) {
+    numbers += i;
   }
+  return numbers;
+}
 
 assignment.sumOfNumbers = sumOfNumbers;
 
@@ -33,11 +33,11 @@ assignment.sumOfNumbers = sumOfNumbers;
  * @returns number the count of even numbers
  */
 function countEvenNumbers(arrayOfNumbers) {
-  arrayOfNumbers = arrayOfNumbers.filter ( even => (even % 2 === 0))
-return arrayOfNumbers.length;
+  arrayOfNumbers = arrayOfNumbers.filter(even => (even % 2 === 0))
+  return arrayOfNumbers.length;
 }
 assignment.countEvenNumbers = countEvenNumbers;
-// console.log(countEvenNumbers)
+
 
 /**
  * Challenge - 3
